@@ -39,7 +39,7 @@ int main(int argc, char** argv){
         predicate = ascending;
         sprintf(msg, "ascending");
     }
-    printf("Write 10 numbers:");
+    printf("Write 10 numbers: \n");
     for (counter = 0; counter < 10; counter++) {
         do{
             fgets(buffer, 16, stdin);
